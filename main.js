@@ -5,11 +5,11 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you on the Monday!";
+  question.innerHTML = "Yayyy! So I'll see you before 24 November, right?😍♥️";
   gif.src ="second.gif";
 
   yesBtn.addEventListener("click", () =>{
-    question.innerHTML = "aww you are my POAT prettiest of all time!";
+    question.innerHTML = "You said yes again? Damn, I love you sooo much, you're melting my heart ♥️ 💓";
     gif.src ="third.gif";
   });
 

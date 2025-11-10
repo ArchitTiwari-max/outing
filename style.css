@@ -13,6 +13,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.wrapper{
+    max-width: 100%;
+    padding: 20px;
+}
+
 .gif{
     height: 100%;
     width: 100%;
@@ -23,6 +28,8 @@ h2{
     font-size: 1.5em;
     color: #e94d58;
     margin: 15px 0;
+    word-wrap: break-word;
+    line-height: 1.4;
 }
 
 .btn-group{
@@ -56,4 +63,54 @@ button:nth-child(2){
     margin-right: -200px;
     background-color: white;
     color: #e94d58;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    h2{
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+    
+    .gif{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    button{
+        width: 120px;
+        font-size: 1em;
+    }
+    
+    button:nth-child(1){
+        margin-left: -150px;
+    }
+    
+    button:nth-child(2){
+        margin-right: -150px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2{
+        font-size: 1em;
+        padding: 0 5px;
+    }
+    
+    .wrapper{
+        padding: 10px;
+    }
+    
+    button{
+        width: 100px;
+        font-size: 0.9em;
+    }
+    
+    button:nth-child(1){
+        margin-left: -120px;
+    }
+    
+    button:nth-child(2){
+        margin-right: -120px;
+    }
 }
